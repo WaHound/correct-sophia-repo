@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First webpage</title>
+</head>
+<body>
+    <header>
+        <h1>My favorite activities</h1>
+        <p>I enjoy playing sports and working out.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Wrestling</h2>
+            <p><strong>Wrestling</strong> allows me to build endurance.</p>
+            <h3>benefits of wrestling</h3>
+            <aside>wrestling is a good way to work on staying fit</aside>
+        </section>
+
+        <article>
+            <h2>Push day</h2>
+            <p>Doing a push day allows me to build power.</p>
+            <ul>
+                <li>Push ups</li>
+                <li>Dips</li>
+                <li>Bench press</li>
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; My website</p>
+    </footer>
+</body>
+</html>
