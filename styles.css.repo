@@ -1,0 +1,12 @@
+body {font-family: 
+    Arial, sans-serif; 
+    color:#333;}
+
+h1 {font-size:36px}
+
+p {margin-bottom: 16px;}
+
+.highlight { background-color: yellow; padding: 6px}
+
+#page-title {text-align: center; border-bottom: 2px solid darkblue}
+

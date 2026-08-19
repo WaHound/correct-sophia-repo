@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First webpage</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+
+        <h1 id="page-title">My favorite activities</h1>
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firsit website update</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <a href="main-content">Skip to main content</a>
+    <header>
+         <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a> </li>
+        <li><a href="about.html">About</a> </li>
+        <li><a href="contact.html">Contact</a> </li>
+        <li><a href="projects.html">Projects</a> </li>
+      </ul>
+      
+    </header>
+        </nav>
+        <p>I enjoy playing sports and working out.</p>
+    </header>
+        
+
+    <main id="main-content">
+           
+      <form action="/test" method="post"> 
+       <fieldset>
+          <legend>Contact Information</legend>
+
+        <label for="full_name">Full Name</label>
+           <input type="text" 
+           id="full_name" 
+           name="full_name" 
+           required 
+           minlenth="2" 
+           maxlength="50">
+    
+     <label for="email_address">Email Address</label>
+           <input type="email" 
+           id="email_address" n
+           ame="email_address" p
+           laceholder="name@example.com" 
+           required>
+      
+    <label for="phone">Phone</label>
+
+  <input
+    type="tel"
+    id="phone"
+    name="phone"
+    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+    title="Enter phone as 123-456-7890">
+
+    </fieldset>
+     
+        <fieldset>
+            <legend>Event details</legend>
+
+           <input type="text" name="subject">
+     </label>
+
+     <label for="quantity">Quantity</label>
+           <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+     <label for="event-date">Event Date</label>
+           <input type="date" id="event-date" name="event-date">
+
+        </fieldset>
+
+       <fieldset>
+    <legend> Login Credentials</legend>
+       <label for="account-email">email</label>
+
+       <input type="email" id="account-email" name="account_email">
+
+       <label for="account-password">Password</label>
+       <input type="password" id="account-password" name="account_password">
+</fieldset>
+
+<fieldset> 
+    <legend>security questions</legend>
+      <label for="security-answer"> what is your favorite color?</label>
+      <input type="text" id="security-answer" name="security_answer">
+</fieldset>
+
+
+<fieldset>
+    <legend>Additional Information</legend>
+
+    <label for="comments">Comments</label>
+    <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+
+
+<p>Preferred Contact Method</p>
+
+<label>
+    <input
+        type="radio"
+        name="contact_method"
+        value="email">
+    Email
+</label>
+
+<label>
+    <input
+        type="radio"
+        name="contact_method"
+        value="phone">
+    Phone
+</label>
+
+<label>
+    <input
+        type="radio"
+        name="contact_method"
+        value="text">
+    Text
+</label>
+
+<p>Topics of Interest</p>
+
+<label>
+    <input
+        type="checkbox"
+        name="topics"
+        value="html">
+    HTML
+</label>
+
+<label>
+    <input
+        type="checkbox"
+        name="topics"
+        value="css">
+    CSS
+</label>
+
+<label>
+    <input
+        type="checkbox"
+        name="topics"
+        value="javascript">
+    JavaScript
+</label>
+
+<label for="favorite-activity">Favorite Activity</label>
+
+<select
+    id="favorite-activity"
+    name="favorite_activity">
+
+    <option value="">-- Select an activity --</option>
+
+    <option value="wrestling">Wrestling</option>
+    <option value="weightlifting">Weightlifting</option>
+    <option value="running">Running</option>
+    <option value="basketball">Basketball</option>
+    <option value="boxing">Boxing</option>
+
+</select>
+
+<label for="favorite-activity">Favorite Activity</label>
+
+<select
+    id="favorite-activity"
+    name="favorite_activity">
+
+    <option value="">-- Select an activity --</option>
+
+    <option value="wrestling">Wrestling</option>
+    <option value="weightlifting">Weightlifting</option>
+    <option value="running">Running</option>
+    <option value="basketball">Basketball</option>
+    <option value="boxing">Boxing</option>
+
+</select>
+
+</fieldset>
+
+<label for="messages">Messages</label>
+<textarea id="messages" name="messages" rows="4" cols="40">
+
+
+
+
+</textarea>
+
+<label for="comments">Comments</label>
+
+<textarea
+    id="comments"
+    name="comments"
+    minlength="10"
+    maxlength="500"
+    Required>
+</textarea>
+<label for="appointment">Appointment Time</label>
+
+<input
+    type="time"
+    id="appointment"
+    name="appointment"
+    min="09:00"
+    max="17:00"
+    step="1800"
+    required>
+
+<label for="product-code">Product Code</label>
+
+<input
+    type="text"
+    id="product-code"
+    name="product_code"
+    pattern="[A-Z]{2}[0-9]{4}"
+    title="Enter 2 uppercase letters followed by 4 digits (e.g., AB1234)"
+    required>
+
+<button type="submit"> send message</button>
+
+    </form>
+
+        <section>
+            <h2>Wrestling</h2>
+            <h2 id="wrestling">Wrestling</h2>
+       
+            <p><strong>Wrestling</strong> allows me to build endurance.</p>
+            <h3>benefits of wrestling</h3>
+            <aside>wrestling is a good way to work on staying fit</aside>
+        </section>
+            <footer> 
+                <nav aria-label="Footer">
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+            </footer>
+
+        <article>
+            <h2>Push day</h2>
+            <p>Doing a push day allows me to build power.</p>
+
+            <ul>
+                <li>Push ups</li>
+                <li>Dips</li>
+                <li>Bench press</li>
+            </ul>
+        </article>
+        <a href="about.html"> visit our webpage</a>
+        <a href="#wrestling"> jump back to wrestling</a>
+
+          <video 
+             src="videos/mma.intro.mp4"
+             controls
+             width="720"
+            poster="videos/mma-intro-thumbnail.jpg"
+            preload=""metadata">
+            Your browser cannot play this video.
+        </video>
+       
+        <audio
+            src="videos/mma-sound.mp3"
+            controls
+            loop
+            muted>
+            Your browser cannot play this audio.
+        </audio>
+
+<p class="highlight"> THIS is a sample paragraph to help me find something. </p>
+
+<h1 class="highlight"> THIS IS A SAMPLE HEADING TO HELP ME FIND SOMETHING.  </h1>
+
+    <figure>
+          <img 
+    src="image/mountain-sunrise.jpg" alt="sunrise behind a snow-covered mountain with pink sunset colors" 
+    width="600" height="400">
+     <figcaption> sunrise over the snoow-covered mountain</figcaption>
+    </figure>
+           <img src="image/decorative-divider.png" alt"" width="600" height=""100">
+
+    </main>
+
+
+    <footer>
+        <p>&copy; My website</p>
+    </footer>
+</body>
+</html>
