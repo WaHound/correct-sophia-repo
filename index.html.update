@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First webpage</title>
+</head>
+<body>
+    <header>
+
+        <h1>My favorite activities</h1>
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firsit website update</title>
+</head>
+<body>
+    <header>
+         <nav>
+      <ul>
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="about.html">About</a> </li>
+        <li><a href="contact.html">Contact</a> </li>
+        <li><a href="projects.html">Projects</a> </li>
+      </ul>
+      
+    </header>
+        </nav>
+        <p>I enjoy playing sports and working out.</p>
+    </header>
+        
+
+    <main>
+        <section>
+            <h2>Wrestling</h2>
+            <h2 id="wrestling">Wrestling</h2>
+       
+            <p><strong>Wrestling</strong> allows me to build endurance.</p>
+            <h3>benefits of wrestling</h3>
+            <aside>wrestling is a good way to work on staying fit</aside>
+        </section>
+
+        <article>
+            <h2>Push day</h2>
+            <p>Doing a push day allows me to build power.</p>
+            <ul>
+                <li>Push ups</li>
+                <li>Dips</li>
+                <li>Bench press</li>
+            </ul>
+        </article>
+        <a href="about.html"> visit our webpage</a>
+        <a href="#wrestling"> jump back to wrestling</a>
+    </main>
+
+    <footer>
+        <p>&copy; My website</p>
+    </footer>
+</body>
+</html>
